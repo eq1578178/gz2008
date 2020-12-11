@@ -1,0 +1,231 @@
+.outer {
+    height: 100%;
+    background: url(https://id.amigo.cn/web/img/login/pic.png) no-repeat 50%;
+
+    .inner {
+        height: 715px;
+        background: url(https://id.amigo.cn/web/img/login/word.png) no-repeat 150px 68px;
+        position: relative;
+
+        .mainlist {
+            position: absolute;
+            width: 343px;
+            height: 520px;
+            background-color: #fff;
+            // background: url(/web/img/login/bg_middle.png) repeat-y 50%;
+            left: 752px;
+            top: 108px;
+
+            .mainlist-top {
+                width: 343px;
+                height: 224px;
+                position: relative;
+
+                h3 {
+                    display: block;
+                    background: url(https://id.amigo.cn/web/img/login/logo.png) no-repeat 0;
+                    width: 110px;
+                    height: 110px;
+                    margin: 0 auto;
+                    margin-top: 20px;
+                }
+
+                .lb {
+                    display: inline-block;
+                }
+
+                .change {
+                    width: 100%;
+                    margin-top: 20px;
+                    text-align: right;
+
+                    .change-s {
+                        color: #ff9000;
+                        font-size: 20px;
+                        padding-left: 40px;
+                        float: left;
+                    }
+
+                    .change-a {
+                        color: #888;
+                        padding-right: 30px;
+                        margin-right: 40px;
+                        margin-top: 5px;
+                        background: url(https://id.amigo.cn/web/img/login/icon_grey.png) no-repeat 100%;
+                        background-size: contain;
+                        text-align: right;
+                    }
+                }
+
+                .errorCode {
+                    position: absolute;
+                    left: 28px;
+                    top: 208px;
+                    color: red;
+                    font-size: 14px;
+                }
+
+            }
+
+            .mainlist-bottom {
+                width: 100%;
+                padding-top: 10px;
+
+                .box {
+                    .tc {
+                        padding: 0 28px;
+                        text-align: center;
+                        position: relative;
+
+                        .pdt {
+                            position: absolute;
+                            left: 82%;
+                            top: 8px;
+                        }
+
+                        input {
+                            width: 265px;
+                            padding: 0 10px;
+                            background-color: transparent;
+                            font-size: 14px;
+                            height: 35px;
+                            line-height: 35px;
+                            border: 1px solid #d8d8d8;
+                            border-radius: 5px;
+                        }
+
+                        .inp {
+                            height: 44px;
+                            line-height: 44px;
+                        }
+
+                        // .ok{
+                        //     background: url(https://id.amigo.cn/web/img/login/correct.png) no-repeat 95%;
+                        // }
+                        // .error{
+                        //     background: url(/web/img/login/delete.png) no-repeat 95%;
+                        // }
+                    }
+
+                    .ps {
+                        margin-top: 20px;
+                        vertical-align: middle;
+                        position: relative;
+
+                        .yzp {
+                            position: absolute;
+                            left: 48%;
+                            top: 8px;
+                        }
+
+                        .yzm {
+                            display: inline-block;
+                            width: 138px;
+                        }
+
+                        .yzt {
+                            display: inline-block;
+                            width: 65px;
+                            height: 25px;
+                            vertical-align: middle;
+                            background-color: aqua;
+                        }
+
+                        .ht {
+                            display: inline-block;
+                            width: 44px;
+                            font-size: 12px;
+                            color: #aaa;
+                            vertical-align: middle;
+                        }
+
+                        //下一步显示的内容
+                        .test {
+                            display: inline-block;
+                            width: 152px;
+                            margin-right: 6px;
+                        }
+
+                        .sjyz {
+                            width: 100px;
+                            height: 37px;
+                            font-size: 12px;
+                            color: #fff;
+                            background: #b7b7b7;
+                        }
+                    }
+
+                    .p10 {
+                        font-size: 11px;
+                        color: #888;
+                        height: 28px;
+                    }
+                }
+
+                .p5 {
+                    height: 22px;
+                    padding-right: 30px;
+                    margin-top: 5px;
+                    text-align: right;
+
+                    a {
+                        display: inline-block;
+                    }
+                }
+
+                .p6 {
+                    font-size: 14px;
+                    color: #bbb;
+                    line-height: 19px;
+                    margin-top: 10px;
+                    display: flex;
+
+                    #box-s {
+                        width: 18px;
+                        height: 19px;
+                        margin-left: 24px;
+                    }
+
+                    label {
+                        margin-left: 10px;
+                    }
+
+                    a {
+                        color: #ccc;
+                        margin-left: 99px;
+                    }
+                }
+
+                .p7 {
+                    margin-top: 20px;
+
+                    .btn {
+                        width: 280px;
+                        height: 46px;
+                        border: none;
+                        font-size: 18px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        color: #fff;
+                        background-color: orange;
+                    }
+                }
+
+                .qh {
+                    margin-top: 20px;
+
+                }
+
+                .p8 {
+                    margin-top: 5px;
+                    font-size: 12px;
+
+                    .regin {
+                        text-decoration: underline;
+                        color: #ff9000;
+                    }
+                }
+            }
+        }
+    }
+}

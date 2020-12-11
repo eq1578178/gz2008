@@ -1,0 +1,842 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #9f9f9f;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img,
+a {
+    outline: 0;
+    border: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-size: 12px;
+    color: #000;
+}
+
+//header
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: #fff;
+
+    .g_hd {
+        width: 100%;
+        height: 104px;
+        border-bottom: #d5d5d5 1px solid;
+        box-shadow: 0 1px 1px #ccc;
+        position: relative;
+        z-index: 90;
+
+        // transform: translateZ(0);
+        .wrapper {
+            width: 1190px;
+            margin: 0 auto;
+
+            .g_logo {
+                float: left;
+                display: block;
+                width: 200px;
+                height: 51px;
+                overflow: hidden;
+                margin-top: 25px;
+                background: url(../images/spirite.png);
+            }
+
+            .g_hd_main {
+                width: 850px;
+                height: 104px;
+                float: right;
+
+                .g_quickMenu {
+                    width: 750px;
+                    height: 20px;
+                    float: right;
+                    text-align: right;
+                    color: #9f9f9f;
+                    padding-top: 10px;
+                    line-height: 20px;
+                    margin-bottom: 23px;
+                    position: relative;
+                    z-index: 101;
+
+                    .loginReg {
+                        margin-right: 5px;
+
+                        .line {
+                            margin: 0 5px;
+                        }
+                    }
+
+                    .cart {
+                        height: 30px;
+                        display: inline-block;
+                        position: relative;
+                        z-index: 10;
+
+                        .cart_hd {
+                            position: relative;
+                            z-index: 3;
+                            padding: 0 10px;
+                            border-left: solid 1px #fff;
+                            border-right: solid 1px #fff;
+
+                            a {
+                                padding-left: 18px;
+
+                                em {
+                                    font-style: normal;
+                                    color: #ef4222;
+                                }
+
+                                b {
+                                    width: 16px;
+                                    height: 16px;
+                                    overflow: hidden;
+                                    position: absolute;
+                                    left: 10px;
+                                    top: 0;
+                                    background-image: url(../images/spirite.png);
+                                    background-position: -216px -4px;
+                                }
+                            }
+                        }
+
+                        .cart_bd {
+                            position: absolute;
+                            right: 0;
+                            top: 20px;
+                            border: solid 1px #e9e9e9;
+                            width: 314px;
+                            overflow: hidden;
+                            background: #fff;
+                            z-index: 1001;
+                            padding-bottom: 10px;
+
+                            .cart_empty {
+                                font-size: 14px;
+                                padding: 18px 15px 10px 15px;
+                            }
+                        }
+                    }
+                }
+
+                .g_search {
+                    float: right;
+                    width: 165px;
+                    padding-left: 3px;
+                    height: 28px;
+                    line-height: 28px;
+                    border: #ddd 1px solid;
+                    position: relative;
+                    z-index: 1;
+
+                    form {
+                        display: block;
+                        line-height: 28px;
+
+                        .txt {
+                            width: 138px;
+                            height: 28px;
+                            line-height: 28px;
+                            border: 0;
+                            float: left;
+                        }
+
+                        .btn {
+                            width: 25px;
+                            height: 28px;
+                            display: block;
+                            background: url(../images/spirite.png);
+                            background-position: -236px 2px;
+                            border: 0;
+                            text-indent: -9999em;
+                            cursor: pointer;
+                            outline: 0;
+                            float: right;
+                        }
+                    }
+                }
+
+                .g_mainnav {
+                    display: block;
+                    width: 680px;
+                    float: right;
+                    position: relative;
+                    z-index: 1;
+
+                    .mNav_item {
+                        display: inline-block;
+                        font-size: 16px;
+                        color: #000;
+                        line-height: 30px;
+                        width: auto;
+                        
+                        .mNav_title {
+                            position: relative;
+                            padding: 0 26px;
+                            height: 50px;
+                            z-index: 1;
+                        }
+                    }
+                    
+                    #JmNavMobile {
+                        padding-bottom: 22px;
+
+                        .menu-box {
+                            border-top: #d5d5d5 1px solid;
+                            box-shadow: 0 -1px 1px #ccc;
+                            width: 100%;
+                            height: 250px;
+                            margin: 0 auto;
+                            text-align: center;
+                            display: none;
+                            position: fixed;
+                            z-index: 89;
+                            top: 103px;
+                            left: 0;
+                            background-color: white;
+                            opacity: 0.98;
+
+                            .menu-li {
+                                margin: 0 auto;
+                                width: 1200px;
+                                height: 200px;
+                                text-align: center;
+
+                                .menu-ul {
+                                    width: 200px;
+                                    float: left;
+                                    height: 200px;
+                                    text-align: center;
+
+                                    ul {
+                                        text-align: left;
+
+                                        li {
+                                            a {
+                                                color: #999999;
+                                                height: 70px;
+                                                font-family: 'Microsoft YaHei';
+                                                font-size: 15px;
+                                                line-height: 30px;
+                                            }
+                                        }
+
+                                        table {
+                                            border-collapse: separate;
+                                            box-sizing: border-box;
+                                            border-spacing: 2px;
+                                            border-color: grey;
+
+                                            tbody {
+                                                border-collapse: separate;
+                                                box-sizing: border-box;
+                                                border-spacing: 2px;
+                                                border-color: grey;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                        }
+
+                        &:hover .menu-box {
+                            display: block;
+                        }
+                    }
+                
+                }
+            }
+
+        }
+    }
+}
+
+//  container
+.container {
+    overflow-y: auto;
+    background: #e5e5e5;
+
+    .banner {
+        .swiper-container {
+            height: 480px;
+            text-align: center;
+
+            img {
+                display: block;
+                width: 100%;
+                // height: 100%;
+            }
+        }
+
+    }
+
+    .starproduct {
+        width: 100%;
+        height: 451px;
+        background: #fff;
+
+        .sp {
+            width: 1196px;
+            height: 100%;
+            margin: 0 auto;
+
+            h2 {
+                padding: 40px 0;
+                font-size: 30px;
+                text-align: center;
+            }
+
+            ul {
+                display: flex;
+
+                li {
+                    margin-right: 8px;
+
+                    a {
+                        display: block;
+                        width: 390px;
+                        height: 270px;
+                        margin-bottom: -4px;
+                        position: relative;
+
+                        .hr-des {
+                            position: absolute;
+                            top: 41px;
+                            width: 100%;
+                            text-align: left;
+                            color: #fff;
+
+                            .hr-title {
+                                padding-left: 270px;
+                                font-size: 26px;
+                                padding-bottom: 10px;
+                            }
+
+                            .hr-detail {
+                                font-size: 16px;
+                                padding-left: 215px;
+                                height: 23px;
+                                color: #fdf7f9;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .hotrecommendation {
+        width: 100%;
+        height: 913px;
+        background: #e5e5e5;
+
+        .sp1 {
+            width: 1196px;
+            height: 100%;
+            margin: 0 auto;
+
+            h2 {
+                padding: 40px 0 0;
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .more {
+                text-align: right;
+                font-size: 15px;
+                padding-bottom: 15px;
+                display: block;
+            }
+
+            .clearfix {
+
+                display: flex;
+
+                .hr-left {
+                    width: 26%;
+                    overflow: hidden;
+                    height: 785px;
+                    position: relative;
+
+
+                    .menu-page {
+                        position: absolute;
+                        bottom: 10px;
+                        z-index: 1;
+
+                        p {
+                            width: 305px;
+                            text-align: center;
+                            margin: 0 auto;
+
+                            .on {
+                                width: 10px;
+                                height: 10px;
+                                overflow: hidden;
+                                margin-right: 6px;
+                                border-radius: 50%;
+                                text-indent: -999px;
+                                cursor: pointer;
+                                background-color: #ff6a00;
+                                display: inline-block;
+                            }
+                        }
+
+                    }
+
+                    .hr-left-list {
+                        a {
+                            display: block;
+                            margin-right: 5px;
+                            margin-bottom: -4px;
+                            position: relative;
+                        }
+                    }
+                }
+
+                .hr-right {
+                    width: 74%;
+
+                    li {
+                        float: left;
+                        margin-right: 5px;
+                        margin-bottom: 5px;
+                        width: 290px;
+                        height: 390px;
+                        background-color: #fff;
+                        -webkit-transition: all ease-in .3s;
+                        -moz-transition: all ease-in .3s;
+                        -ms-transition: all ease-in .3s;
+                        -o-transition: all ease-in .3s;
+                        transition: all ease-in .3s;
+
+                        a {
+                            display: block;
+                            margin-bottom: -4px;
+                            position: relative;
+
+                            .hr-phoneimg {
+                                width: 120px;
+                                height: 240px;
+                                position: relative;
+                                margin: 0 auto;
+
+                                img {
+                                    width: 120px;
+                                    height: 240px;
+                                    transition: transform .8s .1s;
+                                    position: absolute;
+                                    top: 23px;
+                                    left: 3px;
+                                }
+
+                            }
+
+                            .hr-des {
+                                position: absolute;
+                                top: 278px;
+                                width: 100%;
+                                text-align: center;
+
+                                .hr-title {
+                                    color: #0f0e0e;
+                                    font-size: 16px;
+                                }
+
+                                .hr-detail {
+                                    color: #9E9E9E;
+                                    font-size: 14px;
+                                    padding-top: 3px;
+                                }
+
+                                .hr-price {
+                                    color: #fe6a00;
+                                    font-size: 24px;
+                                    padding-top: 12px;
+
+                                    .hr-money {
+                                        font-size: 18px;
+                                        padding-right: 2px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .exquisiteaccessories {
+        width: 100%;
+        background-color: #e5e5e5;
+
+        .ea {
+            width: 1196px;
+            margin: 0 auto;
+
+            h2 {
+                padding: 40px 0 0;
+                font-size: 30px;
+                letter-spacing: 1px;
+                color: #000;
+                text-align: center;
+            }
+            .ea-more {
+                // width: 1196px;
+                font-size: 15px;
+                padding-bottom: 15px;
+                display:inline-block;
+                text-align: right;
+            }
+            .eas {
+                width: 1196px;
+                padding-bottom: 60px;
+                display: flex;
+                flex-wrap: wrap;
+                
+                li {
+                    margin-right: 12px;
+                    margin-bottom: 16px;
+                    width: 386px;
+                    height: 343px;
+                    -webkit-transition: all ease-in .3s;
+                    -moz-transition: all ease-in .3s;
+                    -ms-transition: all ease-in .3s;
+                    -o-transition: all ease-in .3s;
+                    transition: all ease-in .3s;
+
+                    a {
+                        display: block;
+                        margin-bottom: -4px;
+                        position: relative;
+
+                        .hr-des {
+                            position: absolute;
+                            top: 240px;
+                            width: 100%;
+                            text-align: center;
+
+                            .hr-title {
+                                color: #0f0e0e;
+                                font-size: 16px;
+                            }
+                            .hr-detail {
+                                color: #9E9E9E;
+                                font-size: 14px;
+                                padding-top: 3px;
+                            }
+                            .hr-price {
+                                color: #f06261;
+                                font-size: 24px;
+                                padding-top: 2px;
+
+                                .hr-money {
+                                    font-size: 18px;
+                                    padding-right: 2px;
+                                }                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .blandnews{
+        width: 100%;
+        background: #fff;
+        padding-bottom: 20px;
+
+        .bn{
+            width: 1196px;
+            margin: 0 auto;
+            text-align: center;
+
+            h2 {
+                padding: 40px 0;
+                font-size: 30px;
+                letter-spacing: 1px;
+                color: #000;
+            }
+            .bns{
+                img {
+                    margin-right: 10px;
+                    margin-bottom: 12px;
+                    width: 386px;
+                    height: 377px;
+                }
+                
+            }
+        }
+    }
+}
+
+// footer
+.footer {
+    width: 100%;
+    height: 574px;
+    // background: red;
+    padding-top: 40px;
+
+    .g_ts {
+        border-bottom: #eaeaea 1px solid;
+        width: 100%;
+        padding-bottom: 40px;
+        height: 47px;
+        background: #fff;
+
+        .wrapper {
+            width: 1190px;
+            margin: 0 auto;
+            background-color: #ef4222;
+
+            li {
+                float: left;
+                width: 24.5%;
+                height: 47px;
+
+                a {
+                    width: 140px;
+                    height: 47px;
+                    display: block;
+                    float: left;
+                    line-height: 20px;
+                    font-size: 16px;
+                    color: #777;
+
+                    i {
+                        float: left;
+                        width: 46px;
+                        height: 46px;
+                        background: url(../images/spirite.png);
+                        background-position: 0 -60px;
+                        margin-right: 10px;
+                    }
+
+                    em {
+                        font-style: normal;
+                        float: left;
+                    }
+                }
+            }
+        }
+    }
+
+    .g_ft_guide {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 1190px;
+        margin: 0 auto;
+
+        dl {
+            display: block;
+            float: left;
+            width: 18%;
+            line-height: 33px;
+            color: #777;
+
+            dt {
+                font-size: 16px;
+            }
+
+            dd {
+                display: block;
+            }
+        }
+
+        .g_gn_wx {
+            width: 105px;
+            float: right;
+            text-align: center;
+            line-height: 30px;
+            color: #999;
+
+            i {
+                display: block;
+                border: #ccc 3px solid;
+                background: url(../images/spirite.png);
+                background-position: -279px 0;
+                width: 98px;
+                height: 98px;
+            }
+        }
+
+        &:after {
+            content: ".";
+            display: block;
+            font-size: 0;
+            line-height: 0;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+    }
+
+    .g_ft_coprt {
+        background: #333;
+        text-align: left;
+        color: #999;
+        padding: 20px 0;
+
+        .wrapper {
+            width: 1190px;
+            margin: 0 auto;
+
+            .g_ft_coplink {
+                display: block;
+                height: 23px;
+                margin-bottom: 8px;
+
+                .link_item {
+                    float: left;
+                    position: relative;
+                    margin-right: 10px;
+                    line-height: 23px;
+                    height: 23px;
+                    overflow: visible;
+                }
+
+                .link_company {
+                    padding: 1px 0 1px 5px;
+                    height: 17px;
+                    line-height: 17px;
+                    margin-right: 4px;
+                    overflow: visible;
+                    width: 100px;
+
+                    .ui_borderCir {
+                        position: absolute;
+                        left: 5px;
+                        top: 0;
+                        width: 98px;
+                        z-index: 2;
+
+                        .ui_borderCir_c {
+                            background: 0;
+                            padding: 0 1px;
+                            border: 0;
+
+                            p {
+                                padding: 3px 16px 3px 6px;
+                                cursor: default;
+
+                                span {
+                                    display: block;
+                                    position: absolute;
+                                    width: 0;
+                                    height: 0;
+                                    top: 9px;
+                                    right: 6px;
+                                    border-top: solid 4px #999;
+                                    border-left: solid 4px #474747;
+                                    border-right: solid 4px #474747;
+                                    transition: transform .2s ease-in;
+                                    transform-origin: 50% 50%;
+
+                                }
+                            }
+                        }
+                    }
+
+                    &:after {
+                        content: ".";
+                        display: block;
+                        font-size: 0;
+                        line-height: 0;
+                        height: 0;
+                        clear: both;
+                        visibility: hidden;
+                    }
+                }
+
+            }
+
+            .ch {
+                .lang {
+                    position: relative;
+                    float: right;
+                    width: 102px;
+                    height: 24px;
+                    border-radius: 3px;
+                    overflow: hidden;
+                    margin-right: 10px;
+                    background: #474747;
+
+                    .ui_borderCir {
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 96px;
+                        zoom: 1;
+
+                        .ui_borderCir_t,
+                        .ui_borderCir_b {
+                            display: none;
+                        }
+
+                        .ui_borderCir_c {
+                            padding: 0 0 0 6px;
+                            background: 0;
+                            border: 0;
+                            line-height: 22px;
+                        }
+
+                    }
+
+                    .icon {
+                        position: absolute;
+                        width: 10px;
+                        height: 10px;
+                        overflow: hidden;
+                        background: url(../images/spirite.png);
+                        background-position: -463px -66px;
+                        bottom: 7px;
+                        right: 6px;
+                    }
+                }
+
+                .copyright {
+                    display: block;
+                    margin-bottom: 8px;
+
+                    a {
+                        margin-right: 8px;
+                    }
+
+                    span {
+                        a {
+                            img {
+                                vertical-align: middle;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+}

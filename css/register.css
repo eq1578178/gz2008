@@ -1,0 +1,185 @@
+.outer {
+  height: 100%;
+  background: url(https://id.amigo.cn/web/img/login/pic.png) no-repeat 50%;
+}
+.outer .inner {
+  height: 715px;
+  background: url(https://id.amigo.cn/web/img/login/word.png) no-repeat 150px 68px;
+  position: relative;
+}
+.outer .inner .mainlist {
+  position: absolute;
+  width: 343px;
+  height: 520px;
+  background-color: #fff;
+  left: 752px;
+  top: 108px;
+}
+.outer .inner .mainlist .mainlist-top {
+  width: 343px;
+  height: 224px;
+  position: relative;
+}
+.outer .inner .mainlist .mainlist-top h3 {
+  display: block;
+  background: url(https://id.amigo.cn/web/img/login/logo.png) no-repeat 0;
+  width: 110px;
+  height: 110px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.outer .inner .mainlist .mainlist-top .lb {
+  display: inline-block;
+}
+.outer .inner .mainlist .mainlist-top .change {
+  width: 100%;
+  margin-top: 20px;
+  text-align: right;
+}
+.outer .inner .mainlist .mainlist-top .change .change-s {
+  color: #ff9000;
+  font-size: 20px;
+  padding-left: 40px;
+  float: left;
+}
+.outer .inner .mainlist .mainlist-top .change .change-a {
+  color: #888;
+  padding-right: 30px;
+  margin-right: 40px;
+  margin-top: 5px;
+  background: url(https://id.amigo.cn/web/img/login/icon_grey.png) no-repeat 100%;
+  background-size: contain;
+  text-align: right;
+}
+.outer .inner .mainlist .mainlist-top .errorCode {
+  position: absolute;
+  left: 28px;
+  top: 208px;
+  color: red;
+  font-size: 14px;
+}
+.outer .inner .mainlist .mainlist-bottom {
+  width: 100%;
+  padding-top: 10px;
+}
+.outer .inner .mainlist .mainlist-bottom .box .tc {
+  padding: 0 28px;
+  text-align: center;
+  position: relative;
+}
+.outer .inner .mainlist .mainlist-bottom .box .tc .pdt {
+  position: absolute;
+  left: 82%;
+  top: 8px;
+}
+.outer .inner .mainlist .mainlist-bottom .box .tc input {
+  width: 265px;
+  padding: 0 10px;
+  background-color: transparent;
+  font-size: 14px;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+}
+.outer .inner .mainlist .mainlist-bottom .box .tc .inp {
+  height: 44px;
+  line-height: 44px;
+}
+.outer .inner .mainlist .mainlist-bottom .box .ps {
+  margin-top: 20px;
+  vertical-align: middle;
+  position: relative;
+}
+.outer .inner .mainlist .mainlist-bottom .box .ps .yzp {
+  position: absolute;
+  left: 48%;
+  top: 8px;
+}
+.outer .inner .mainlist .mainlist-bottom .box .ps .yzm {
+  display: inline-block;
+  width: 138px;
+}
+.outer .inner .mainlist .mainlist-bottom .box .ps .yzt {
+  display: inline-block;
+  width: 65px;
+  height: 25px;
+  vertical-align: middle;
+  background-color: aqua;
+}
+.outer .inner .mainlist .mainlist-bottom .box .ps .ht {
+  display: inline-block;
+  width: 44px;
+  font-size: 12px;
+  color: #aaa;
+  vertical-align: middle;
+}
+.outer .inner .mainlist .mainlist-bottom .box .ps .test {
+  display: inline-block;
+  width: 152px;
+  margin-right: 6px;
+}
+.outer .inner .mainlist .mainlist-bottom .box .ps .sjyz {
+  width: 100px;
+  height: 37px;
+  font-size: 12px;
+  color: #fff;
+  background: #b7b7b7;
+}
+.outer .inner .mainlist .mainlist-bottom .box .p10 {
+  font-size: 11px;
+  color: #888;
+  height: 28px;
+}
+.outer .inner .mainlist .mainlist-bottom .p5 {
+  height: 22px;
+  padding-right: 30px;
+  margin-top: 5px;
+  text-align: right;
+}
+.outer .inner .mainlist .mainlist-bottom .p5 a {
+  display: inline-block;
+}
+.outer .inner .mainlist .mainlist-bottom .p6 {
+  font-size: 14px;
+  color: #bbb;
+  line-height: 19px;
+  margin-top: 10px;
+  display: flex;
+}
+.outer .inner .mainlist .mainlist-bottom .p6 #box-s {
+  width: 18px;
+  height: 19px;
+  margin-left: 24px;
+}
+.outer .inner .mainlist .mainlist-bottom .p6 label {
+  margin-left: 10px;
+}
+.outer .inner .mainlist .mainlist-bottom .p6 a {
+  color: #ccc;
+  margin-left: 99px;
+}
+.outer .inner .mainlist .mainlist-bottom .p7 {
+  margin-top: 20px;
+}
+.outer .inner .mainlist .mainlist-bottom .p7 .btn {
+  width: 280px;
+  height: 46px;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  background-color: orange;
+}
+.outer .inner .mainlist .mainlist-bottom .qh {
+  margin-top: 20px;
+}
+.outer .inner .mainlist .mainlist-bottom .p8 {
+  margin-top: 5px;
+  font-size: 12px;
+}
+.outer .inner .mainlist .mainlist-bottom .p8 .regin {
+  text-decoration: underline;
+  color: #ff9000;
+}

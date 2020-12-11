@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+</head>
+
+<body>
+  <!-- header -->
+  <div class="header">
+    <div class="g_hd" id="glbHeader" data-la="12">
+      <div class="wrapper" id="Jslheaderbd">
+        <a href="https://www.gionee.com/index.shtml" target="_self" hidefocus="true" class="g_logo fl tin"></a>
+        <div class=" fr g_hd_main">
+          <div class="g_quickMenu fr" id="JquickMenu">
+            <span class="loginReg" id="JloginReg">
+              <a href="https://shop.gionee.com/amigo.php?act=login" target="_self" hidefocus="true" class="login"
+                style="color: #ef4222;">amigo账号登录</a>
+              <span class="line">|</span>
+              <a href="https://shop.gionee.com/login.shtml" target="_self" hidefocus="true" class="reg">原账号登录</a><b></b>
+              <span class="line">|</span>
+              <a href="https://shop.gionee.com/amigo.php?act=login" target="_self" hidefocus="true"
+                class="reg">注册</a><b></b>
+            </span>
+            <span class="cart" id="Jcart">
+              <span class="cart_hd">
+                <a href="https://shop.gionee.com/cart" hidefocus="true">购物车(
+                  <em id="JcartNum">0</em>)
+                  <b></b>
+                </a>
+                <i class="whitespace"></i>
+              </span>
+              <span class="cart_bd" id="JcartBd" style="display: none;">
+                <div class="cart_empty">您的购物车是空的，快去挑选喜欢的商品吧！</div>
+              </span>
+            </span>
+          </div>
+          <div class="g_search fr">
+            <form action="https://shop.gionee.com/search/goods" method="get" target="_blank" id="search">
+              <input class="txt fl" name="kw" type="text" value="" id="JsearchTxt" style="color: rgb(153, 153, 153);">
+              <input type="submit" class="btn fr" value="">
+            </form>
+          </div>
+          <ul class="g_mainnav c">
+            <li class="mNav_item home">
+              <a href="https://www.gionee.com/index.shtml" target="_self" hidefocus="true" class="mNav_title">首页
+              </a>
+            </li>
+            <li class="mNav_item mobile" id="JmNavMobile">
+              <a href="https://shop.gionee.com/goods/list" target="_self" hidefocus="true" class="mNav_title">手机
+              </a>
+              <div class="menu-box" id="m-sj">
+                <div class="menu-li">
+                  <div class="menu-ul">
+                    <ul style="width: 100%">
+                      <li><span style="width:50px;">&nbsp;</span></li>
+                      <li><a href="#"><span style="font-weight:bold;">
+                            <font font="" size="3px" color="#777777">最新 &gt;</font>
+                          </span></a></li>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td style="width:100%;height:10px;font-size:14px;border:0">
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <li><a class="hotphone" href="https://z.gionee.com/details-pc/s11s/index.html ">金立S11S</a></li>
+                      <li><a class="hotphone" href="https://z.gionee.com/details-pc/s11/index.html">金立S11</a></li>
+                      <li><a class="hotphone" href="https://z.gionee.com/details-pc/m7plus/index.html">金立M7 Plus</a>
+                      </li>
+                      <li><a class="hotphone" href="https://z.gionee.com/details-pc/m7/index.html">金立M7</a></li>
+                      <!-- <li><a href="https://z.gionee.com/details-pc/s10/index.html">金立S10</a></li> -->
+                      <li><a href="https://shop.gionee.com/goods/1335">大金钢2</a></li>
+                      <!-- <li><a href="https://shop.gionee.com/goods/1253">金立M6S Plus</a></li> -->
+                      <!-- <li><a href="https://z.gionee.com/details-pc/m2017/index.html">金立M2017</a></li> -->
+                    </ul>
+                  </div>
+                  <div class="menu-ul">
+                    <ul style="WIDTH: 100%">
+                      <li><span style="width:50px;">&nbsp;</span></li>
+                      <li><a
+                          href="https://shop.gionee.com/goods/list?type=&amp;face=&amp;id=%3B96&amp;m1=0&amp;order=0&amp;onsale="><span
+                            style="font-weight:bold;">
+                            <font font="" size="3px" color="#777777">M系列 &gt;</font>
+                          </span></a></li>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td style="width:100%;height:10px;font-size:14px;border:0">
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <li><a href="https://z.gionee.com/details-pc/m7plus/index.html">金立M7 Plus</a></li>
+                      <li><a href="https://z.gionee.com/details-pc/m7/index.html">金立M7</a></li>
+                      <li><a href="https://shop.gionee.com/goods/1253">金立M6S Plus</a></li>
+                      <li><a href="https://z.gionee.com/details-pc/m2017/index.html">金立M2017</a></li>
+                      <!-- <li><a href="https://z.gionee.com/details-pc/m2017vip/index.html">金立M2017定制版</a></li> -->
+                      <li><a href="https://shop.gionee.com/goods/1159">金立M6 Plus</a></li>
+                      <li><a href="https://shop.gionee.com/goods/1155">金立M6</a></li>
+                    </ul>
+                  </div>
+                  <div class="menu-ul">
+                    <ul style="WIDTH: 100%">
+                      <li><span style="width:50px;">&nbsp;</span></li>
+                      <li><a
+                          href="https://shop.gionee.com/goods/list?type=&amp;face=&amp;id=%3B87&amp;m1=0&amp;order=0&amp;onsale="><span
+                            style="font-weight:bold;">
+                            <font font="" size="3px" color="#777777">S系列 &gt;</font>
+                          </span></a></li>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td style="width:100%;height:10px;font-size:14px;border:0">
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <li><a href="https://z.gionee.com/details-pc/s11s/index.html">金立S11S</a></li>
+                      <li><a href="https://z.gionee.com/details-pc/s11/index.html">金立S11</a></li>
+                      <li><a href="https://shop.gionee.com/goods/1281">金立S10</a></li>
+                      <li><a href="https://shop.gionee.com/goods/1285">金立S10B</a></li>
+                      <li><a href="https://shop.gionee.com/goods/1301">金立S10C</a></li>
+                      <!-- <li><a href="https://shop.gionee.com/goods/1223">金立S9</a></li> -->
+                      <!-- <li><a href="https://shop.gionee.com/goods/1117">金立S8</a></li> -->
+                      <!-- <li><a href="https://shop.gionee.com/goods/1045">金立S6</a></li> -->
+                    </ul>
+                  </div>
+                  <div class="menu-ul">
+                    <ul style="WIDTH: 100%">
+                      <li><span style="width:50px;">&nbsp;</span></li>
+                      <li><a
+                          href="https://shop.gionee.com/goods/list?type=&amp;face=&amp;id=%3B103&amp;m1=0&amp;order=0&amp;onsale="><span
+                            style="font-weight:bold;">
+                            <font font="" size="3px" color="#777777">金钢系列 &gt;</font>
+                          </span></a></li>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td style="width:100%;height:10px;font-size:14px;border:0">
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <li><a class="hotphone" href="https://shop.gionee.com/goods/1377">金钢3</a></li>
+                      <li><a href="https://shop.gionee.com/goods/1227">金钢2</a></li>
+                      <li><a href="https://shop.gionee.com/goods/1335">大金钢2</a></li>
+                      <!-- <li><a href="https://shop.gionee.com/goods/1043">金钢公开版</a></li> -->
+                      <!-- <li><a href="https://shop.gionee.com/goods/1141">金钢全网通</a></li> -->
+                      <!-- <li><a href="https://shop.gionee.com/goods/1205">大金钢</a></li> -->
+                    </ul>
+                  </div>
+                  <div class="menu-ul">
+                    <ul style="WIDTH: 100%">
+                      <li><span style="width:50px;">&nbsp;</span></li>
+                      <li><a
+                          href="https://shop.gionee.com/goods/list?type=&amp;face=&amp;id=%3B5&amp;m1=0&amp;order=0&amp;onsale="><span
+                            style="font-weight:bold;">
+                            <font font="" size="3px" color="#777777">天鉴系列 &gt;</font>
+                          </span></a></li>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td style="width:100%;height:10px;font-size:14px;border:0">
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <li><a href="https://shop.gionee.com/goods/1119">天鉴W909</a></li>
+                      <!-- <li><a href="https://shop.gionee.com/goods/1113">天鉴W900S(3GB)</a></li> -->
+                      <!-- <li><a href="https://shop.gionee.com/goods/1029">天鉴W900S(2GB)</a></li> -->
+                      <!-- <li><a href="https://shop.gionee.com/goods/949">天鉴W900</a></li> -->
+                    </ul>
+                  </div>
+                  <div class="menu-ul">
+                    <ul style="WIDTH: 100%">
+                      <li><span style="width:50px;">&nbsp;</span></li>
+                      <li><a
+                          href="https://shop.gionee.com/goods/list?type=&amp;face=&amp;id=%3B100&amp;m1=0&amp;order=0&amp;onsale="><span
+                            style="font-weight:bold;">
+                            <font font="" size="3px" color="#777777">F系列 &gt;</font>
+                          </span></a></li>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td style="width:100%;height:10px;font-size:14px;border:0">
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <!-- <li><a href="https://shop.gionee.com/goods/1245">金立F5</a></li> -->
+                      <!-- <li><a href="https://shop.gionee.com/goods/1149">金立F103B</a></li> -->
+                      <li><a class="hotphone" href="https://shop.gionee.com/goods/1375">金立F6</a></li>
+                      <li><a href="https://shop.gionee.com/goods/1317">金立F109</a></li>
+                      <li><a href="https://shop.gionee.com/goods/1319">金立F109L</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="mNav_item peijian">
+              <a href="https://shop.gionee.com/parts" target="_self" hidefocus="true" class="mNav_title">配件
+              </a>
+              <b></b>
+            </li>
+            <li class="mNav_item service">
+              <a href="https://shop.gionee.com/help" target="_self" hidefocus="true" class="mNav_title">服务
+              </a>
+              <b></b>
+            </li>
+            <li class="mNav_item loaddown">
+              <a href="https://down.gionee.com/gioneedown/index.action" target="_blank" hidefocus="true"
+                class="mNav_title">下载
+              </a>
+              <b></b>
+            </li>
+            <!--<li class="mNav_item elife"><a href="http://bbs.gionee.com/" target="_blank" hidefocus="true" class="mNav_title">社区</a><b></b></li>-->
+            <li class="mNav_item elife">
+              <a href="https://www.amigo.cn/" rel="nofollow" target="_blank" hidefocus="true" class="mNav_title">amigoOS
+              </a>
+              <b></b>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- container -->
+  <div class="container">
+    <div style="width: 100%;height: 103px;"></div>
+
+    <!-- banner -->
+    <div class="banner">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/bn1.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/bn2.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/bn3.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/bn4.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/bn1.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="images/bn2.jpg" alt=""></div>
+        </div>
+        <!-- 分页器 -->
+        <div class="swiper-pagination"></div>
+
+        <!-- 导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+
+    <!-- starproduct -->
+    <div class="starproduct">
+      <div class="sp">
+        <h2>明星产品</h2>
+        <ul>
+          <li>
+            <a href="">
+              <img src="https://imggn.gionee.com/w/201712/28_1514454113062.jpg" alt="">
+              <div class="hr-des">
+                <p class="hr-title">&nbsp;</p>
+                <p class="hr-detail"><span class="hr-circle">.</span>超清全面屏</p>
+                <p class="hr-detail"><span class="hr-circle">.</span>超高性价比</p>
+                <p class="hr-detail"><span class="hr-circle">.</span>4GB+64GB</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="https://imggn.gionee.com/w/201801/19_1516348649876.jpg" alt="">
+              <div class="hr-des">
+                <p class="hr-title">&nbsp;</p>
+                <p class="hr-detail"><span class="hr-circle">.</span>前置2000万柔光双摄</p>
+                <p class="hr-detail"><span class="hr-circle">.</span>后置1600万双摄</p>
+                <p class="hr-detail"><span class="hr-circle">.</span>硬件级实时虚化</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="https://imggn.gionee.com/w/201712/28_1514454181297.jpg" alt="">
+              <div class="hr-des">
+                <p class="hr-title">&nbsp;</p>
+                <p class="hr-detail"><span class="hr-circle">.</span>6.01英寸超清全面屏</p>
+                <p class="hr-detail"><span class="hr-circle">.</span>内置安全加密芯片</p>
+                <p class="hr-detail"><span class="hr-circle">.</span>后置1600万双摄</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- hotrecommendation -->
+    <div class="hotrecommendation">
+      <div class="sp1">
+        <h2>热卖推荐</h2>
+        <a class="hr-more more" href="" target="blank">...更多...</a>
+        <div class="hrs clearfix">
+          <div class="hr-left">
+            <div class="menu-page clearfix">
+              <p><span class="on">1</span></p>
+            </div>
+            <div class="hr-left-list clearfix">
+              <a href="https://z.gionee.com/details-pc/s11/index.html?hmsr=gionee&hmpl=S11&hmcu=remai&hmkw=&hmci="
+                target="blank">
+                <img src="https://imggn.gionee.com/w/201803/05_1520212662703.jpg" alt="">
+              </a>
+              <a href="javascript:void(0);" style="display: none;"></a>
+            </div>
+          </div>
+          <ul class="hr-right">
+            <li>
+              <a href="">
+                <div class="hr-phoneimg">
+                  <img class="after" src="https://imggn.gionee.com/images/20190916/20190916182659b.png" alt="">
+                  <img class="before" src="https://imggn.gionee.com/images/20190916/20190916182852a.png" alt="">
+                </div>
+                <div class="hr-des">
+                  <p class="hr-title">金立K3</p>
+                  <p class="hr-detail">5000mAh大电池，微Q八开</p>
+                  <p class="hr-price">
+                    <span class="hr-money">¥</span>999
+                    <span style="font-size: 18px;"></span>
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="hr-phoneimg">
+                  <img class="after" src="https://imggn.gionee.com/images/20190916/20190916182659b.png" alt="">
+                  <img class="before" src="https://imggn.gionee.com/images/20190916/20190916182852a.png" alt="">
+                </div>
+                <div class="hr-des">
+                  <p class="hr-title">金立K3</p>
+                  <p class="hr-detail">5000mAh大电池，微Q八开</p>
+                  <p class="hr-price">
+                    <span class="hr-money">¥</span>999
+                    <span style="font-size: 18px;"></span>
+                  </p>
+                </div>
+              </a>
+
+            </li>
+            <li>
+              <a href="">
+                <div class="hr-phoneimg">
+                  <img class="after" src="https://imggn.gionee.com/images/20190916/20190916182659b.png" alt="">
+                  <img class="before" src="https://imggn.gionee.com/images/20190916/20190916182852a.png" alt="">
+                </div>
+                <div class="hr-des">
+                  <p class="hr-title">金立K3</p>
+                  <p class="hr-detail">5000mAh大电池，微Q八开</p>
+                  <p class="hr-price">
+                    <span class="hr-money">¥</span>999
+                    <span style="font-size: 18px;"></span>
+                  </p>
+                </div>
+              </a>
+
+            </li>
+            <li>
+              <a href="">
+                <div class="hr-phoneimg">
+                  <img class="after" src="https://imggn.gionee.com/images/20190916/20190916182659b.png" alt="">
+                  <img class="before" src="https://imggn.gionee.com/images/20190916/20190916182852a.png" alt="">
+                </div>
+                <div class="hr-des">
+                  <p class="hr-title">金立K3</p>
+                  <p class="hr-detail">5000mAh大电池，微Q八开</p>
+                  <p class="hr-price">
+                    <span class="hr-money">¥</span>999
+                    <span style="font-size: 18px;"></span>
+                  </p>
+                </div>
+              </a>
+
+            </li>
+            <li>
+              <a href="">
+                <div class="hr-phoneimg">
+                  <img class="after" src="https://imggn.gionee.com/images/20190916/20190916182659b.png" alt="">
+                  <img class="before" src="https://imggn.gionee.com/images/20190916/20190916182852a.png" alt="">
+                </div>
+                <div class="hr-des">
+                  <p class="hr-title">金立K3</p>
+                  <p class="hr-detail">5000mAh大电池，微Q八开</p>
+                  <p class="hr-price">
+                    <span class="hr-money">¥</span>999
+                    <span style="font-size: 18px;"></span>
+                  </p>
+                </div>
+              </a>
+
+            </li>
+            <li>
+              <a href="">
+                <div class="hr-phoneimg">
+                  <img class="after" src="https://imggn.gionee.com/images/20190916/20190916182659b.png" alt="">
+                  <img class="before" src="https://imggn.gionee.com/images/20190916/20190916182852a.png" alt="">
+                </div>
+                <div class="hr-des">
+                  <p class="hr-title">金立K3</p>
+                  <p class="hr-detail">5000mAh大电池，微Q八开</p>
+                  <p class="hr-price">
+                    <span class="hr-money">¥</span>999
+                    <span style="font-size: 18px;"></span>
+                  </p>
+                </div>
+              </a>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--exquisiteaccessories  -->
+    <div class="exquisiteaccessories">
+      <div class="ea commom-more">
+        <h2>精美配件</h2>
+        <a class="ea-more more" href="" target="blank">...更多...</a>
+        <ul class="eas">
+          <li>
+            <a href="https://shop.gionee.com/goods/1133" target="_blank">
+              <img src="https://imggn.gionee.com/w/201712/28_1514453044261.jpg" alt="金立 数据线">
+              <div class="hr-des">
+                <p class="hr-title">线控自拍杆</p>
+                <p class="hr-detail">迷你携带，线控美拍</p>
+                <p class="hr-price">
+                  <span class="hr-money">¥</span>49
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://shop.gionee.com/goods/1133" target="_blank">
+              <img src="https://imggn.gionee.com/w/201712/28_1514453044261.jpg" alt="金立 数据线">
+              <div class="hr-des">
+                <p class="hr-title">线控自拍杆</p>
+                <p class="hr-detail">迷你携带，线控美拍</p>
+                <p class="hr-price">
+                  <span class="hr-money">¥</span>49
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://shop.gionee.com/goods/1133" target="_blank">
+              <img src="https://imggn.gionee.com/w/201712/28_1514453044261.jpg" alt="金立 数据线">
+              <div class="hr-des">
+                <p class="hr-title">线控自拍杆</p>
+                <p class="hr-detail">迷你携带，线控美拍</p>
+                <p class="hr-price">
+                  <span class="hr-money">¥</span>49
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://shop.gionee.com/goods/1133" target="_blank">
+              <img src="https://imggn.gionee.com/w/201712/28_1514453044261.jpg" alt="金立 数据线">
+              <div class="hr-des">
+                <p class="hr-title">线控自拍杆</p>
+                <p class="hr-detail">迷你携带，线控美拍</p>
+                <p class="hr-price">
+                  <span class="hr-money">¥</span>49
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://shop.gionee.com/goods/1133" target="_blank">
+              <img src="https://imggn.gionee.com/w/201712/28_1514453044261.jpg" alt="金立 数据线">
+              <div class="hr-des">
+                <p class="hr-title">线控自拍杆</p>
+                <p class="hr-detail">迷你携带，线控美拍</p>
+                <p class="hr-price">
+                  <span class="hr-money">¥</span>49
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://shop.gionee.com/goods/1133" target="_blank">
+              <img src="https://imggn.gionee.com/w/201712/28_1514453044261.jpg" alt="金立 数据线">
+              <div class="hr-des">
+                <p class="hr-title">线控自拍杆</p>
+                <p class="hr-detail">迷你携带，线控美拍</p>
+                <p class="hr-price">
+                  <span class="hr-money">¥</span>49
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--  -->
+    <div class="blandnews">
+      <div class="bn commom">
+        <h2>品牌动态</h2>
+        <div class="bns">
+          <img class="videoplay" data-videoid="f0359nbcu18" data-title="科技 悦生活"
+            src="https://imggn.gionee.com/w/201802/01_1517453309499.jpg" alt="科技 悦生活">
+
+          <img class="videoplay" data-videoid="" data-title="摄影展"
+            src="https://imggn.gionee.com/w/201802/01_1517453664732.jpg" alt="摄影展">
+
+          <img class="videoplay" data-videoid="m0510h5ckf5" data-title="金立S11S"
+            src="https://imggn.gionee.com/w/201802/01_1517453382045.jpg" alt="金立S11S">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer-->
+  <div class="footer">
+    <div class="g_ts">
+      <ul class="wrapper">
+        <li>
+          <a name="b1" href="https://shop.gionee.com/help_detail/49" hidefocus="true" target="_blank">
+            <i class="c_dropgos"></i>
+            <em>7天<br>退货保障</em>
+          </a>
+        </li>
+        <li>
+          <a href="https://shop.gionee.com/help_detail/49" hidefocus="true" target="_blank">
+            <i class="c_change"></i>
+            <em>30天<br>换货承诺</em>
+          </a>
+        </li>
+        <li>
+          <a href="https://shop.gionee.com/help_detail/31" hidefocus="true" target="_blank">
+            <i class="c_freesheep"></i>
+            <em>99元起<br>全场免运费</em>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.gionee.com/zh/serviceNet/" hidefocus="true" target="_blank">
+            <i class="c_svspoint"></i>
+            <em>579家<br>售后服务点</em>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="g_ft_guide wrapper c">
+      <dl>
+        <dt>关于金立</dt>
+        <dd><a href="https://www.gionee.com/zh/honour/" hidefocus="true" target="_blank">企业荣誉</a></dd>
+        <dd><a href="https://shop.gionee.com/experience_store.shtml" hidefocus="true" target="_blank">金立体验店</a></dd>
+        <dd><a href="https://www.gionee.com/op-agentIndex.shtml" hidefocus="true" target="_blank">代理商专区</a></dd>
+        <dd><a href="https://www.gionee.com/zhnew/jlzp/" hidefocus="true" target="_blank">加入金立</a></dd>
+        <dd><a href="https://www.gionee.com/zhnew/contactUs/" hidefocus="true" target="_blank">联系我们</a></dd>
+        <dd><a href="https://www.gionee.com/zh/providerService/" hidefocus="true" target="_blank">供应/服务商需求咨询</a></dd>
+      </dl>
+      <dl>
+        <dt>新闻资讯</dt>
+        <dd><a href="https://www.gionee.com/zh/comNews/" hidefocus="true" target="_blank">公司新闻</a></dd>
+        <dd><a href="https://www.gionee.com/zh/mediabd/" hidefocus="true" target="_blank">媒体报道</a></dd>
+        <!-- <dd><a href="https://www.gionee.com/zh/newsMonth/" hidefocus="true" target="_blank">金立月刊</a></dd> -->
+      </dl>
+      <dl>
+        <dt>购物指南</dt>
+        <dd><a href="https://shop.gionee.com/help_detail/15" hidefocus="true" target="_blank">购物流程</a></dd>
+        <dd><a href="https://shop.gionee.com/help_detail/41" hidefocus="true" target="_blank">支付方式</a></dd>
+        <dd><a href="https://shop.gionee.com/help_detail/31" hidefocus="true" target="_blank">配送说明及费用</a></dd>
+        <dd><a href="https://shop.gionee.com/help_detail/23" hidefocus="true" target="_blank">订单管理</a></dd>
+        <dd><a href="https://shop.gionee.com/help_detail/17" hidefocus="true" target="_blank">购买常见问题</a></dd>
+        <dd><a href="https://www.gionee.com/zh/supportapk/" hidefocus="true" target="_blank">预置应用公示</a></dd>
+      </dl>
+      <dl>
+        <dt>售后服务</dt>
+        <dd><a href="https://shop.gionee.com/help_detail/49" hidefocus="true" target="_blank">售后政策</a></dd>
+        <dd><a href="https://shop.gionee.com/help_detail/47" hidefocus="true" target="_blank">售后服务网点</a></dd>
+        <dd><a href="https://tg.hiweixiu.com/gionee/index" hidefocus="true" target="_blank">上门维修</a></dd>
+        <dd><a href="https://shop.gionee.com/help_detail/39" hidefocus="true" target="_blank">签收须知</a></dd>
+        <dd><a href="https://shop.gionee.com/help_detail/37" hidefocus="true" target="_blank">物流查询</a></dd>
+      </dl>
+      <dl>
+        <dt>关注我们</dt>
+        <dd><a href="https://e.weibo.com/gionee?ref=http%3A%2F%2Frysx.myaora.net%2Fwebrysx%2F" rel="nofollow"
+            hidefocus="true" target="_blank" class="sina">新浪微博<b></b></a></dd>
+        <dd><a href="https://e.t.qq.com/gionee" rel="nofollow" hidefocus="true" target="_blank"
+            class="tencent">腾讯微博<b></b></a></dd>
+        <dd><a href="https://gionee.qzone.qq.com/" rel="nofollow" hidefocus="true" target="_blank"
+            class="qzone">QQ空间<b></b></a></dd>
+      </dl>
+      <div class="g_gn_wx fr">
+        <i class="ico_gn_weixin"></i>
+        <span>扫一扫关注微信</span>
+      </div>
+    </div>
+    <div class="g_ft_coprt">
+      <div class="wrapper">
+        <ul class="g_ft_coplink c">
+          <li class="link_item link_first">
+            <a href="https://www.gionee.com/sitemap.html" target="_blank" hidefocus="true">网站地图</a>
+          </li>
+          <li class="link_item link_company" id="Jconpany"><b></b>
+            <div class="ui_borderCir" style="z-index:2">
+              <div class="ui_borderCir_t">
+                <div class="ui_borderCir_tl"></div>
+                <div class="ui_borderCir_tm"></div>
+                <div class="ui_borderCir_tr"></div>
+              </div>
+              <div class="ui_borderCir_c">
+                <p>集团下属公司<span></span></p>
+                <ul style="display:none">
+                  <li>欧新通信</li>
+                  <!-- <li>奥软网络</li> -->
+                </ul>
+              </div>
+              <div class="ui_borderCir_b">
+                <div class="ui_borderCir_bl"></div>
+                <div class="ui_borderCir_bm"></div>
+                <div class="ui_borderCir_br"></div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="ch">
+          <div class="lang" id="Jlang" style="z-index:3">
+            <div class="ui_borderCir">
+              <div class="ui_borderCir_t">
+                <div class="ui_borderCir_tl"></div>
+                <div class="ui_borderCir_tm"></div>
+                <div class="ui_borderCir_tr"></div>
+              </div>
+              <div class="ui_borderCir_c">
+                <ul>
+                  <li><a href="http://global.gionee.com/" target="_blank">Global/English</a></li>
+                  <li><a href="https://shop.gionee.com/" target="_self">中国/简体中文</a></li>
+                </ul>
+              </div>
+              <div class="ui_borderCir_b">
+                <div class="ui_borderCir_bl"></div>
+                <div class="ui_borderCir_bm"></div>
+                <div class="ui_borderCir_br"></div>
+              </div>
+            </div>
+            <span class="icon"></span>
+          </div>
+          <p class="copyright" style="position: relative; z-index:1; line-height: 45px;">增值电信业务经营许可证：<a
+              href="https://www.gionee.com/licence3.shtml" target="_blank">粤B2-20120350</a>
+            <a href="http://gd.beian.miit.gov.cn" target="_blank">粤ICP备05087105号</a>
+            <a href="https://www.gionee.com/licence1.shtml" target="_blank">粤网文[2018]10835-3804号</a>
+            <a href="https://www.gionee.com/licence2.shtml" target="_blank">粤文市审[2012]196号</a>
+            <span style="white-space: nowrap;">
+
+              <a id="___szfw_logo___" href="https://credit.szfw.org/CX20170731035353280386.html" target="_blank"
+                rel="nofollow">
+                <img src="http://icon.szfw.org/sf.png" border="0" style="opacity: 0.8;">
+              </a>
+              <a href="https://szcert.ebs.org.cn/a25799fe-b2a1-4c7a-b42a-c0f6d4a73d95" target="_blank">
+                <img src="https://szcert.ebs.org.cn/Images/govIcon.gif" title="深圳市市场监督管理局企业主体身份公示"
+                  alt="深圳市市场监督管理局企业主体身份公示" width="33" height="45" border="0"
+                  style="border-width:0px;border:hidden; border:none;">
+              </a>
+              <a href="http://www.sznet110.gov.cn/webrecord/innernet/Welcome.jsp?bano=4403101920949" rel="nofollow"
+                target="_blank">
+                <img alt="M6/M6 Plus" src="https://shop.gionee.com/static/web201310/b.png" width="120" height="45"
+                  style="vertical-align: middle;">
+              </a>
+            </span>
+          </p>
+          <p class="copyright" style="line-height: 23px;">Copyright © 2013 深圳市金立通信设备有限公司 版权所有 .</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

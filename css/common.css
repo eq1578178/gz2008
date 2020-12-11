@@ -1,0 +1,49 @@
+@charset "utf-8";
+html,h1,h2,h3,h4,h5,h6,body,ul,li,dd,dt,div,span,p,img,input,label,select,option,i,b,em,br,strong,textarea,u,tr,td,
+section,article,aside,figcaption,figure{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+ol,ul,nav,li{
+    list-style: none;
+}
+a{
+    caret-color: #333;
+    text-decoration: none;
+}
+/* 解决图片存在的bug   在IE9以下浏览器中，用a标签包裹的元素会出现边框线     */
+img{
+    border: 0;
+    display: block;
+}
+/* 万能清除法 */
+    clear-fix::after{
+    content: ( );
+    display: block;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+input{
+    outline:none;
+    display:block;
+}
+i,em{
+    font-style:normal;
+}
+.commmom{
+    width: 1196px;
+    margin: 0 auto;
+    text-align: center;
+}
+.none{
+    display: none;
+}
+/* 超出隐藏 */
+overflow:hidden
+white-spance:nowrap
+text-overflow:ellipsis
